@@ -1,0 +1,26 @@
+[기능]
+1.아이템 추가
+2.완료 체크 / 해제
+3.아이템 영구 삭제
+4.아이템 수정
+5.아이템 카테고리(목적 || 중요도(긴급위주)) 분류
+--------------
+6. 날짜 선택(예약 기능)
+
+[화면 구성]
+
+1. 추가 버튼을 눌러서 입력폼을 모달 형태로
+2. 상단 제목(헤더) => Todo List
+3. 완료되지 않은 list목록 아래에 '완료목록' 제목
+4. 리스트 전체를 클릭하면, 스타일 적용과 리스트 분리
+
+[폴더 구성]
+src폴더에 만들기
+- 메인 화면: TodoMain.js
+- style 폴더 : styled-component ( => GlobalStyle.js)
+- components 폴더
+   :  TodoHeader.js
+   :  TodoItem.js (li)
+   :  TodoList.js (ul)
+   :  TodoAdd.js  (입력form)
+
